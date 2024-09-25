@@ -1,0 +1,41 @@
+{
+  "name": "@dgck81lnn/koishi-plugin-chatluna-plugin-xdi8",
+  "description": "ChatLuna 希顶翻译工具",
+  "version": "0.1.0-alpha.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "koishi": {
+    "description": {
+      "zh": "ChatLuna 希顶翻译工具"
+    },
+    "service": {
+      "required": [
+        "chatluna",
+        "xdi8"
+      ]
+    }
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.3"
+  },
+  "devDependencies": {
+    "koishi": "^4.17.0",
+    "koishi-plugin-chatluna": "^1.0.0-beta.98",
+    "koishi-plugin-xdi8": "^1.2.0"
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.0",
+    "koishi-plugin-chatluna": "^1.0.0-beta.98",
+    "koishi-plugin-xdi8": "^1.2.0"
+  }
+}
